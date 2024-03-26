@@ -14,12 +14,14 @@
     grep -E "^[a-zA-Z]{3,4}:" passwd
     ```
 1. In the file ``/home/student/sample.txt`` how many different values are there in the first column? in the second?
-    > Your response : 4 and 4
+    > Your response :
+    ```
+    4 4
+    ```
 
     > Your command :
     ```
-    cut -d "," -f 1 sample.txt | sort -u | wc -l
-    cut -d "," -f 2 sample.txt | sort -u | wc -l
+    awk -F ',' '{a[$1]++; b[$2]} END {print length(a), length(b)}' sample.txt
     ```
 1. In the file ``/home/student/sample.txt`` sort the values in the second column by frequency of occurrence. (uniq -c can be useful)
     > Your response :  
