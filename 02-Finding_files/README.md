@@ -7,13 +7,26 @@
 1. With the command ``which``, find the executable file nc and indicate the path
     > Path : ``/usr/bin/nc``
 1. With the command ``which``, find the executable file becode. What is the flag ?
-    > Flag : ``BC{WH1CH_FL4G_EXECUTLE_FILE}``
+    > Flag : 
+    ```
+    BC{WH1CH_FL4G_EXECUTLE_FILE}
+    ```
 1. Search with ``find ``command for a file that contains the name "Edgar Allan Poe". What is the flag ?
     > Flag :
+    ```
+    BC{3d54r_4ll4n_P03_FL45}
+    ```
+
 1. Using the ``find`` command, find the file password.txt and specify the flag.
-    > Flag : ``BC{PASSWORD_FILE}``
+    > Flag : 
+    ```
+    BC{PASSWORD_FILE}
+    ```
 1. With the command ``find``, find a file that starts with ``becode-`` and ends with ``.sh``.
     > Flag :
+    ```
+    BC{YOU_C4N_FIND_ME_WITH_WICH_IF_AM_EXEC}
+    ```
 1. Using the ``find`` command to identify any file (not directory) modified in the last day, NOT owned by the root
 user and execute ls -l on them. **Chaining/piping commands is NOT allowed!**
     > Your command : 
