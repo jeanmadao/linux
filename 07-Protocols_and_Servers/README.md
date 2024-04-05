@@ -1,25 +1,4 @@
 # Protocols and servers
-
-## Goals  
-
-1. HTTP/HTTPS
-    - Configure a virtual host
-    - Deploy a one pager 
-2. SSH 
-    - Configure key-based authentication
-3. SMB
-    - Provide network shares to specific clients
-4. TELENET
-    - Install and configuration
-5. FTP
-    - Install and configuration
-
-
-## HTTP, FTP, SMTP, POP3, IMAP, SMB.
-
-First, please follow tthese pdf :
-- http://dma.vgtu.lt/KTA/KTA10_EN.pdf
-
 ## Exercises
 
 > Connect to the virtual machine 10.12.181.X with the following credentials:  
